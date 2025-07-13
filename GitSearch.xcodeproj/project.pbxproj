@@ -35,16 +35,6 @@
 			path = GitSearch;
 			sourceTree = "<group>";
 		};
-		9379A5802E2375B800437689 /* GitSearchTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GitSearchTests;
-			sourceTree = "<group>";
-		};
-		9379A58A2E2375B800437689 /* GitSearchUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GitSearchUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				9379A56D2E2375B500437689 /* GitSearch */,
-				9379A5802E2375B800437689 /* GitSearchTests */,
-				9379A58A2E2375B800437689 /* GitSearchUITests */,
 				9379A56C2E2375B500437689 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				9379A57F2E2375B800437689 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				9379A5802E2375B800437689 /* GitSearchTests */,
-			);
 			name = GitSearchTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				9379A5892E2375B800437689 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				9379A58A2E2375B800437689 /* GitSearchUITests */,
 			);
 			name = GitSearchUITests;
 			packageProductDependencies = (
@@ -405,6 +387,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -433,6 +416,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
